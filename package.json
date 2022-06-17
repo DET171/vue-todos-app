@@ -16,6 +16,7 @@
     "eslint": "^8.17.0",
     "eslint-config-berry": "^0.15.5",
     "eslint-plugin-vue": "^9.1.1",
+    "firebase": "^9.8.3",
     "roboto-fontface": "*",
     "vite-plugin-linter": "^1.2.0",
     "vue": "3",
