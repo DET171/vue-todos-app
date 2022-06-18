@@ -159,7 +159,7 @@ export default defineComponent({
 						message: this.message,
 						createdAt: `${new Date().toISOString()}`,
 					});
-					this.getTodos();
+					await this.getTodos();
 					this.resetForm();
 				}
 				catch (e) {
@@ -175,7 +175,7 @@ export default defineComponent({
 				});
 				this.docId = '';
 				this.createdAt = '';
-				this.getTodos();
+				await this.getTodos();
 				this.resetForm();
 			}
 			this.animation().end();
