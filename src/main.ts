@@ -8,7 +8,7 @@ import { loadFonts } from './plugins/webfontloader';
 
 loadFonts();
 
-createApp(App)
+createApp({})
 	.use(Router.createRouter({
 		history: Router.createWebHistory(),
 		routes: [
