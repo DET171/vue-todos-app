@@ -8,17 +8,17 @@ import { loadFonts } from './plugins/webfontloader';
 
 loadFonts();
 
-createApp({})
-	.use(Router.createRouter({
-		history: Router.createWebHistory(),
-		routes: [
-			{
-				path: '/',
-				name: 'home',
-				component: () => import('./App.vue'),
-			},
-		],
-	}))
+const app = createApp(App);
+
+app.use(Router.createRouter({
+	history: Router.createWebHistory(),
+	routes: [
+		{
+			path: '/',
+			component: () => import('./App.vue'),
+		},
+	],
+}))
 	.use(LottieVuePlayer)
 	.use(vuetify)
 	.mount('#app');
