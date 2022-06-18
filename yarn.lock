@@ -458,6 +458,30 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
+"@lit/reactive-element@^1.3.0":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@lit/reactive-element/-/reactive-element-1.3.2.tgz#43e470537b6ec2c23510c07812616d5aa27a17cd"
+  integrity sha512-A2e18XzPMrIh35nhIdE4uoqRzoIpEU5vZYuQN4S3Ee1zkGdYC27DP12pewbw/RLgPHzaE4kx/YqxMzebOpm0dA==
+
+"@lottiefiles/lottie-player@^1.5.7":
+  version "1.5.7"
+  resolved "https://registry.yarnpkg.com/@lottiefiles/lottie-player/-/lottie-player-1.5.7.tgz#15f2a5d95d46103fb269c65cf0523cbe8fdf35a7"
+  integrity sha512-G9rBnH3GJv7ADPLGhwvauWf5IhHja5615N9ROjVE7O384nkHccJ2C/v0AZ9ybx63QTGojN7NaKYdTKq6NMcNrg==
+  dependencies:
+    "@types/pako" "^1.0.1"
+    lit "^2.1.2"
+    lottie-web "^5.8.1"
+    pako "^2.0.4"
+    resize-observer-polyfill "^1.5.1"
+
+"@lottiefiles/vue-lottie-player@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@lottiefiles/vue-lottie-player/-/vue-lottie-player-1.0.8.tgz#d04e02cd6d745a1a13285b618f3bef20eb70d397"
+  integrity sha512-PMoE8wsqx9ETOfcid3Mec78ONdT8vqenF7qh0HrrQtLiJKUW57HvSrUBCpi6xyH5MUmtkMnMEIhx9fIfqOp/hQ==
+  dependencies:
+    "@lottiefiles/lottie-player" "^1.5.7"
+    vue "^2.6.12"
+
 "@mdi/font@5.9.55":
   version "5.9.55"
   resolved "https://registry.yarnpkg.com/@mdi/font/-/font-5.9.55.tgz#41acd50b88073ded7095fc3029d8712b6e12f38e"
@@ -572,6 +596,16 @@
   version "18.0.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.0.0.tgz#67c7b724e1bcdd7a8821ce0d5ee184d3b4dd525a"
   integrity sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==
+
+"@types/pako@^1.0.1":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@types/pako/-/pako-1.0.4.tgz#b4262aef92680a9331fcdb8420c69cf3dd98d3f3"
+  integrity sha512-Z+5bJSm28EXBSUJEgx29ioWeEEHUh6TiMkZHDhLwjc9wVFH+ressbkmX6waUZc5R3Gobn4Qu5llGxaoflZ+yhA==
+
+"@types/trusted-types@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.2.tgz#fc25ad9943bcac11cceb8168db4f275e0e72e756"
+  integrity sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==
 
 "@types/webfontloader@^1.0.0":
   version "1.6.34"
@@ -946,7 +980,7 @@ chalk@^4.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chokidar@3.5.3:
+chokidar@3.5.3, "chokidar@>=3.0.0 <4.0.0":
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
   integrity sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==
@@ -1651,6 +1685,11 @@ immediate@~3.0.5:
   resolved "https://registry.yarnpkg.com/immediate/-/immediate-3.0.6.tgz#9db1dbd0faf8de6fbe0f5dd5e56bb606280de69b"
   integrity sha512-XXOFtyqDjNDAQxVfYxuF7g9Il/IbWmmlQg2MYKOH8ExIT1qg6xc4zyS3HaEEATgs1btfzxq15ciUiY7gjSXRGQ==
 
+immutable@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/immutable/-/immutable-4.1.0.tgz#f795787f0db780183307b9eb2091fcac1f6fafef"
+  integrity sha512-oNkuqVTA8jqG1Q6c+UglTOD1xhC1BtjKI7XkCXRkZHrN5m18/XsnUp8Q89GkQO/z+0WjonSvl0FLhDYftp46nQ==
+
 import-fresh@^3.0.0, import-fresh@^3.2.1:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-3.3.0.tgz#37162c25fcb9ebaa2e6e53d5b4d88ce17d9e0c2b"
@@ -1793,6 +1832,30 @@ lie@~3.3.0:
   dependencies:
     immediate "~3.0.5"
 
+lit-element@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/lit-element/-/lit-element-3.2.0.tgz#9c981c55dfd9a8f124dc863edb62cc529d434db7"
+  integrity sha512-HbE7yt2SnUtg5DCrWt028oaU4D5F4k/1cntAFHTkzY8ZIa8N0Wmu92PxSxucsQSOXlODFrICkQ5x/tEshKi13g==
+  dependencies:
+    "@lit/reactive-element" "^1.3.0"
+    lit-html "^2.2.0"
+
+lit-html@^2.2.0:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-2.2.6.tgz#e70679605420a34c4f3cbd0c483b2fb1fff781df"
+  integrity sha512-xOKsPmq/RAKJ6dUeOxhmOYFjcjf0Q7aSdfBJgdJkOfCUnkmmJPxNrlZpRBeVe1Gg50oYWMlgm6ccAE/SpJgSdw==
+  dependencies:
+    "@types/trusted-types" "^2.0.2"
+
+lit@^2.1.2:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/lit/-/lit-2.2.6.tgz#4ef223e88517c000b0c01baf2e3535e61a75a5b5"
+  integrity sha512-K2vkeGABfSJSfkhqHy86ujchJs3NR9nW1bEEiV+bXDkbiQ60Tv5GUausYN2mXigZn8lC1qXuc46ArQRKYmumZw==
+  dependencies:
+    "@lit/reactive-element" "^1.3.0"
+    lit-element "^3.2.0"
+    lit-html "^2.2.0"
+
 loader-utils@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-2.0.2.tgz#d6e3b4fb81870721ae4e0868ab11dd638368c129"
@@ -1833,6 +1896,11 @@ long@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/long/-/long-4.0.0.tgz#9a7b71cfb7d361a194ea555241c92f7468d5bf28"
   integrity sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
+
+lottie-web@^5.8.1:
+  version "5.9.4"
+  resolved "https://registry.yarnpkg.com/lottie-web/-/lottie-web-5.9.4.tgz#c01478ee5dd47f916cb4bb79040c11d427872d57"
+  integrity sha512-bSs1ZTPifnBVejO1MnQHdfrKfcn02YTCmgOh2wcAEICqRA0V7GzDh8FnwXY6+EzT+i8XOunaIloo/5xC5YNbsA==
 
 lru-cache@^6.0.0:
   version "6.0.0"
@@ -1954,6 +2022,11 @@ p-try@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
+
+pako@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/pako/-/pako-2.0.4.tgz#6cebc4bbb0b6c73b0d5b8d7e8476e2b2fbea576d"
+  integrity sha512-v8tweI900AUkZN6heMU/4Uy4cXRc2AYNRggVmTR+dEncawDJgCdLMximOVA2p4qO57WMynangsfGRb5WD6L1Bg==
 
 pako@~1.0.2:
   version "1.0.11"
@@ -2117,6 +2190,11 @@ require-from-string@^2.0.2:
   resolved "https://registry.yarnpkg.com/require-from-string/-/require-from-string-2.0.2.tgz#89a7fdd938261267318eafe14f9c32e598c36909"
   integrity sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
 
+resize-observer-polyfill@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==
+
 resolve-from@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
@@ -2171,6 +2249,15 @@ safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+
+sass@^1.52.3:
+  version "1.52.3"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.52.3.tgz#b7cc7ffea2341ccc9a0c4fd372bf1b3f9be1b6cb"
+  integrity sha512-LNNPJ9lafx+j1ArtA7GyEJm9eawXN8KlA1+5dF6IZyoONg1Tyo/g+muOsENWJH/2Q1FHbbV4UwliU0cXMa/VIA==
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+    immutable "^4.0.0"
+    source-map-js ">=0.6.2 <2.0.0"
 
 schema-utils@^3.0.0:
   version "3.1.1"
@@ -2242,7 +2329,7 @@ slice-ansi@^4.0.0:
     astral-regex "^2.0.0"
     is-fullwidth-code-point "^3.0.0"
 
-source-map-js@^1.0.2:
+"source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
@@ -2475,6 +2562,11 @@ vue@3:
     "@vue/runtime-dom" "3.2.37"
     "@vue/server-renderer" "3.2.37"
     "@vue/shared" "3.2.37"
+
+vue@^2.6.12:
+  version "2.6.14"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
+  integrity sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==
 
 vuetify@^3.0.0-beta.0:
   version "3.0.0-beta.3"
