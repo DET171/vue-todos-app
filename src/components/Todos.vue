@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import dayjs from 'dayjs';
+import localized from 'dayjs/plugin/localizedFormat';
+dayjs.extend(localized);
+</script>
+
 <template>
 	<div>
 		<div
@@ -71,7 +77,7 @@
 					>
 						<td>{{ todo.title }}</td>
 						<td class="msg">{{ todo.message }}</td>
-						<td>{{ new Date(todo.createdAt) }}</td>
+						<td>{{ dayjs(todo.createdAt).format('LLLL') }}</td>
 						<td>
 							<v-btn
 								color="primary"

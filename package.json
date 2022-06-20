@@ -13,6 +13,7 @@
     "@mdi/font": "5.9.55",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
     "@typescript-eslint/parser": "^5.28.0",
+    "dayjs": "^1.11.3",
     "eslint": "^8.17.0",
     "eslint-config-berry": "^0.15.5",
     "eslint-plugin-vue": "^9.1.1",
