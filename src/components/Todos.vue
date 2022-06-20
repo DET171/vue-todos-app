@@ -23,14 +23,17 @@
 				lazy-validation
 			>
 				<v-text-field
+					color="grey"
 					v-model="title"
 					:counter="25"
 					label="Title"
+					variant="outlined"
 					:rules="titleRules ?? []"
 					required
 				></v-text-field>
 
 				<v-textarea
+					variant="outlined"
 					background-color="grey lighten-2"
 					color="cyan"
 					:rules="[
@@ -100,7 +103,7 @@ import { defineComponent } from 'vue';
 import type { VForm } from './../custom';
 import animationData from '../loadingAnimation.json';
 import { db } from './../../firebase';
-import { collection, addDoc, doc, getDocs, getDoc, deleteDoc, setDoc } from 'firebase/firestore';
+import { collection, addDoc, doc, getDocs, deleteDoc, setDoc } from 'firebase/firestore';
 
 export default defineComponent({
 	// eslint-disable-next-line vue/multi-word-component-names
