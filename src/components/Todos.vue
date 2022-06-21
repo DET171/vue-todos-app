@@ -145,7 +145,7 @@ export default defineComponent({
 			const todos: any[] = [];
 
 			// eslint-disable-next-line no-shadow
-			data.forEach((doc) => {
+			data.forEach((doc): void => {
 				todos.push({
 					id: doc.id,
 					...doc.data(),

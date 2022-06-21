@@ -1,3 +1,4 @@
 firebase.creds.ts
 node_modules
 *.log
+dist
