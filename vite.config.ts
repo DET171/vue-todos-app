@@ -22,12 +22,6 @@ export default defineConfig((config) => ({
 				else if (id.includes('vue-router')) {
 					return 'vue-router';
 				}
-				else if (id.includes('vue')) {
-					return 'vue';
-				}
-				else if (id.includes('webfontloader')) {
-					return 'webfontloader';
-				}
 				else if (id.includes('lottie')) {
 					return 'lottie';
 				}
